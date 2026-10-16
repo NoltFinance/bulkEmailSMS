@@ -1,0 +1,14 @@
+{
+  "name": "bulk-email",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preview": "node src/cli.js preview",
+    "send": "node src/cli.js send",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "nodemailer": "^8.0.4"
+  }
+}
